@@ -1,0 +1,88 @@
+NASA NEWS DOCUMENT COLLECTION
+For AI-text detector testing
+Source articles: NASA public news releases
+
+============================================================
+ARTICLE 1
+Temperatures Rising: NASA Confirms 2024 Warmest Year on Record
+Published: January 10, 2025
+Source: https://www.nasa.gov/news-release/temperatures-rising-nasa-confirms-2024-warmest-year-on-record/
+============================================================
+
+Earth’s average surface temperature in 2024 was the warmest on record, according to an analysis led by NASA scientists.
+
+Global temperatures in 2024 were 2.30 degrees Fahrenheit (1.28 degrees Celsius) above the agency’s 20th-century baseline (1951-1980), which tops the record set in 2023. The new record comes after 15 consecutive months (June 2023 through August 2024) of monthly temperature records — an unprecedented heat streak.
+
+“Once again, the temperature record has been shattered — 2024 was the hottest year since record keeping began in 1880,” said NASA Administrator Bill Nelson. “Between record breaking temperatures and wildfires currently threatening our centers and workforce in California, it has never been more important to understand our changing planet.”
+
+NASA scientists further estimate Earth in 2024 was about 2.65 degrees Fahrenheit (1.47 degrees Celsius) warmer than the mid-19th century average (1850-1900). For more than half of 2024, average temperatures were more than 1.5 degrees Celsius above the baseline, and the annual average, with mathematical uncertainties, may have exceeded the level for the first time.
+
+“The Paris Agreement on climate change sets forth efforts to remain below 1.5 degrees Celsius over the long term. To put that in perspective, temperatures during the warm periods on Earth three million years ago — when sea levels were dozens of feet higher than today — were only around 3 degrees Celsius warmer than pre-industrial levels,” said Gavin Schmidt, director of NASA’s Goddard Institute for Space Studies (GISS) in New York.
+
+“We’re halfway to Pliocene-level warmth in just 150 years.”
+
+2024 was Earth’s warmest year since modern record-keeping began around 1880, and the past 10 consecutive years have been the warmest 10 on record.
+
+Scientists have concluded the warming trend of recent decades is driven by heat-trapping carbon dioxide, methane, and other greenhouse gases. In 2022 and 2023, Earth saw record increases in carbon dioxide emissions from fossil fuels, according to a recent international analysis. The concentration of carbon dioxide in the atmosphere has increased from pre-industrial levels in the 18th century of approximately 278 parts per million to about 420 parts per million today.
+
+NASA and other federal agencies regularly collect data on greenhouse gas concentrations and emissions. These data are available at the U.S. Greenhouse Gas Center, a multi-agency effort that consolidates information from observations and models, with a goal of providing decision-makers with one location for data and analysis.
+
+Exceptional heat trends
+
+The temperatures of individual years can be influenced by natural climate fluctuations such as El Niño and La Niña, which alternately warm and cool the tropical Pacific Ocean. The strong El Niño that began in fall 2023 helped nudge global temperatures above previous records.
+
+The heat surge that began in 2023 continued to exceed expectations in 2024, scientists said, even though El Niño abated. Researchers are working to identify contributing factors, including possible climate impacts of the January 2022 Tonga volcanic eruption and reductions in pollution, which may change cloud cover and how solar energy is reflected back into space.
+
+“Not every year is going to break records, but the long-term trend is clear,” Schmidt said. “We’re already seeing the impact in extreme rainfall, heat waves, and increased flood risk, which are going to keep getting worse as long as emissions continue.”
+
+Seeing changes locally
+
+NASA assembles its temperature record using surface air temperature data collected from tens of thousands of meteorological stations, as well as sea surface temperature data acquired by ship- and buoy-based instruments. This data is analyzed using methods that account for the varied spacing of temperature stations around the globe and for urban heating effects that could skew the calculations.
+
+A new assessment published earlier that year by scientists at the Colorado School of Mines, National Science Foundation, the National Oceanic and Atmospheric Administration (NOAA), and NASA further increases confidence in the agency’s global and regional temperature data.
+
+“When changes happen in the climate, you see it first in the global mean, then you see it at the continental scale and then at the regional scale. Now, we’re seeing it at the local level,” Schmidt said. “The changes occurring in people’s everyday weather experiences have become abundantly clear.”
+
+Independent analyses by NOAA, Berkeley Earth, the Hadley Centre (part of the United Kingdom’s weather forecasting Met Office) and Copernicus Climate Services in Europe have also concluded that the global surface temperatures for 2024 were the highest since modern record-keeping began. These scientists use much of the same temperature data in their analyses but use different methodologies and models. Each shows the same ongoing warming trend.
+
+NASA’s full dataset of global surface temperatures, as well as details of how NASA scientists conducted the analysis, are publicly available from GISS, a NASA laboratory managed by the agency’s Goddard Space Flight Center in Greenbelt, Maryland.
+
+============================================================
+ARTICLE 2
+NASA Releases Global Temperature Data
+Published: January 14, 2026
+Source: https://www.nasa.gov/news-release/nasa-releases-global-temperature-data/
+============================================================
+
+Earth’s global surface temperature in 2025 was slightly warmer than 2023 – but within the margin of error: the two years are effectively tied according to an analysis by NASA scientists. Since record-keeping began in 1880, the hottest year on record remains 2024.
+
+Global temperatures in 2025 were cooler than 2024, with average temperatures of 2.14 degrees Fahrenheit (1.19 degrees Celsius) above the 1951 to 1980 average.
+
+The analysis from NASA’s Goddard Institute for Space Studies includes air temperature data acquired by more than 25,000 meteorological stations around the world, from ship- and buoy-based instruments measuring sea surface temperature, and Antarctic research stations. The data are analyzed using methods that account for the changing distribution of temperature stations and for urban heating effects that could skew the calculations.
+
+Additionally, independent analyses by the National Oceanic and Atmospheric Administration, Berkeley Earth, the Hadley Centre (part of the United Kingdom’s weather forecasting Met Office), and Copernicus Climate Services in Europe have concluded the global surface temperature for 2025 was the third warmest on record. These scientists use much of the same temperature data in their analyses but employ different methodologies and models, which exhibit the same ongoing warming trend.
+
+NASA’s full dataset of global surface temperatures, as well as details of how agency scientists conducted the analysis, are available online.
+
+============================================================
+ARTICLE 3
+NASA Study Reveals Hidden Stage of Arctic Freeze
+Published: August 19, 2026
+Source: https://science.nasa.gov/blogs/science-news/2026/08/19/hidden-arctic-freeze/
+============================================================
+
+As autumn gives way to winter across the Arctic, the ground doesn’t immediately freeze solid. Instead, soils often linger near the freezing point for days or even weeks in a phase called the zero curtain. In a new NASA-led study, researchers produced high-resolution maps of the Arctic zero curtain. Understanding the duration, intensity and extent of this phenomenon should help scientists better predict how thawing permafrost, or ground that is frozen for an extended length of time, could affect Earth’s climate.
+
+The zero curtain works much like a glass of ice water. The water remains at the freezing point because incoming heat melts the ice rather than raising the temperature. The same effect occurs within the Arctic soil during spring. In autumn, the reverse happens: as water freezes, it releases heat that holds the ground near the freezing point before it can cool further.
+
+The near-freezing conditions allow microbes in the soil to remain active longer, releasing carbon dioxide and methane into the atmosphere. Arctic permafrost stores an estimated 1.9 trillion tons (1.7 trillion metric tons) of organic carbon, which is nearly twice the amount currently in Earth’s atmosphere. As frozen ground thaws, more of that carbon could be released as microbes take advantage of the expanding zero curtain’s moist conditions.
+
+In the Aug. 18 issue of Scientific Reports, researchers described an artificial intelligence framework called GeoCryoAI that combines satellite observations and model outputs with field measurements dating back to 1891 to create the first detailed maps of zero-curtain conditions across the region around the Arctic. The maps show that spring thaw generally produces much longer zero-curtain periods than autumn freeze-up and that regions with higher moisture levels experience longer zero-curtain periods.
+
+The team designed GeoCryoAI to work with data from the U.S.-India NISAR (NASA-ISRO Synthetic Aperture Radar) mission, which could help scientists observe how frozen landscapes respond to a changing climate and improve forecasts of future greenhouse gas emissions.
+
+============================================================
+TESTING NOTE
+============================================================
+
+This file combines text from three NASA news releases/articles. Use it as a long-form sample for your text classifier, but remember that it is not a balanced benchmark dataset. NASA articles are human-authored source material, but a model prediction alone cannot prove authorship or plagiarism. For plagiarism detection, compare a document against source documents and use a similarity threshold; an AI-text detector answers a different question.
