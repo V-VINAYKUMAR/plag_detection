@@ -1,0 +1,271 @@
+import { useState } from 'react'
+import {
+  ArrowRight,
+  ShieldCheck,
+  FileText,
+  Code2,
+  Image as ImageIcon,
+  Sparkles,
+  Zap,
+  LockKeyhole,
+  Menu,
+  X,
+  Github,
+} from 'lucide-react'
+import './App.css'
+
+const detectors = [
+  {
+    id: 'text',
+    name: 'Text Detection',
+    description: 'Analyze paragraphs, essays, articles, and other written content.',
+    icon: FileText,
+    accent: 'violet',
+    tag: 'NLP powered',
+  },
+  {
+    id: 'code',
+    name: 'Code Detection',
+    description: 'Inspect source code to identify potentially AI-generated code.',
+    icon: Code2,
+    accent: 'blue',
+    tag: 'Code intelligence',
+  },
+  {
+    id: 'image',
+    name: 'Image Detection',
+    description: 'Check images for visual patterns associated with AI generation.',
+    icon: ImageIcon,
+    accent: 'pink',
+    tag: 'Vision powered',
+  },
+]
+
+function App() {
+  const [menuOpen, setMenuOpen] = useState(false)
+
+  const scrollToDetectors = () => {
+    document.getElementById('detectors')?.scrollIntoView({
+      behavior: 'smooth',
+    })
+    setMenuOpen(false)
+  }
+
+  return (
+    <div className="app-shell">
+      <div className="ambient ambient-one" />
+      <div className="ambient ambient-two" />
+
+      <header className="navbar">
+        <a className="brand" href="#home" aria-label="VeriScan home">
+          <span className="brand-mark">
+            <ShieldCheck size={23} strokeWidth={2.2} />
+          </span>
+          <span>Veri<span className="brand-highlight">Scan</span></span>
+          <span className="brand-badge">AI</span>
+        </a>
+
+        <nav className={`nav-links ${menuOpen ? 'nav-open' : ''}`}>
+          <a href="#home" onClick={() => setMenuOpen(false)}>Home</a>
+          <a href="#detectors" onClick={() => setMenuOpen(false)}>Detectors</a>
+          <a href="#how-it-works" onClick={() => setMenuOpen(false)}>How it works</a>
+        </nav>
+
+        <button className="nav-cta" onClick={scrollToDetectors}>
+          Start detecting <ArrowRight size={16} />
+        </button>
+
+        <button
+          className="mobile-menu"
+          onClick={() => setMenuOpen(!menuOpen)}
+          aria-label="Toggle navigation"
+        >
+          {menuOpen ? <X size={22} /> : <Menu size={22} />}
+        </button>
+      </header>
+
+      <main id="home">
+        <section className="hero">
+          <div className="hero-pill">
+            <span className="live-dot" />
+            <Sparkles size={14} />
+            One platform. Three detection models.
+          </div>
+
+          <h1>
+            Know what&apos;s real.
+            <br />
+            <span className="gradient-text">Detect what&apos;s AI.</span>
+          </h1>
+
+          <p className="hero-description">
+            A unified AI detection workspace for text, source code, and images.
+            Analyze content with dedicated machine learning models in one place.
+          </p>
+
+          <div className="hero-actions">
+            <button className="primary-button" onClick={scrollToDetectors}>
+              Explore detectors <ArrowRight size={18} />
+            </button>
+            <a className="secondary-button" href="#how-it-works">
+              <Zap size={17} /> See how it works
+            </a>
+          </div>
+
+          <div className="hero-trust">
+            <div className="avatar-stack" aria-hidden="true">
+              <span><FileText size={14} /></span>
+              <span><Code2 size={14} /></span>
+              <span><ImageIcon size={14} /></span>
+            </div>
+            <p><strong>3 specialized detectors</strong><br />One streamlined experience</p>
+          </div>
+
+          <div className="hero-visual" aria-label="Detection platform preview">
+            <div className="preview-topbar">
+              <div className="window-dots"><i /><i /><i /></div>
+              <span>veriscan / workspace</span>
+              <span className="preview-status"><span className="live-dot" /> Ready</span>
+            </div>
+
+            <div className="preview-body">
+              <aside className="preview-sidebar">
+                <div className="mini-logo"><ShieldCheck size={19} /></div>
+                <div className="mini-side-item active"><FileText size={17} /></div>
+                <div className="mini-side-item"><Code2 size={17} /></div>
+                <div className="mini-side-item"><ImageIcon size={17} /></div>
+                <div className="mini-sidebar-bottom"><LockKeyhole size={16} /></div>
+              </aside>
+
+              <div className="preview-content">
+                <div className="preview-heading">
+                  <div>
+                    <span className="eyebrow">YOUR WORKSPACE</span>
+                    <h3>Detection overview</h3>
+                  </div>
+                  <span className="preview-date">All detectors</span>
+                </div>
+
+                <div className="preview-metrics">
+                  <div className="metric-card">
+                    <span className="metric-icon violet"><FileText size={17} /></span>
+                    <span className="metric-label">Text analysis</span>
+                    <strong>01</strong>
+                    <span className="metric-foot">Language model</span>
+                  </div>
+                  <div className="metric-card">
+                    <span className="metric-icon blue"><Code2 size={17} /></span>
+                    <span className="metric-label">Code analysis</span>
+                    <strong>02</strong>
+                    <span className="metric-foot">Code model</span>
+                  </div>
+                  <div className="metric-card">
+                    <span className="metric-icon pink"><ImageIcon size={17} /></span>
+                    <span className="metric-label">Image analysis</span>
+                    <strong>03</strong>
+                    <span className="metric-foot">Vision model</span>
+                  </div>
+                </div>
+
+                <div className="preview-analysis">
+                  <div className="analysis-title">
+                    <span>Analysis workspace</span>
+                    <span className="analysis-tag"><Sparkles size={12} /> Unified detection</span>
+                  </div>
+                  <div className="analysis-lines">
+                    <span className="line long" />
+                    <span className="line medium" />
+                    <span className="line short" />
+                  </div>
+                  <div className="analysis-bottom">
+                    <span><LockKeyhole size={13} /> Your content, your analysis</span>
+                    <span className="ready-pill">Ready to analyze</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="detectors-section" id="detectors">
+          <div className="section-heading">
+            <span className="eyebrow"><span className="live-dot" /> THE DETECTION SUITE</span>
+            <h2>Everything you need to <span className="gradient-text">verify content.</span></h2>
+            <p>Choose a detector to get started. Each tool uses its own specialized model.</p>
+          </div>
+
+          <div className="detector-grid">
+            {detectors.map((detector, index) => {
+              const Icon = detector.icon
+              return (
+                <article
+                  className={`detector-card ${detector.accent}`}
+                  key={detector.id}
+                  style={{ animationDelay: `${index * 100}ms` }}
+                >
+                  <div className="card-top">
+                    <div className={`detector-icon ${detector.accent}`}>
+                      <Icon size={24} />
+                    </div>
+                    <span className="card-number">0{index + 1}</span>
+                  </div>
+                  <span className="detector-tag">{detector.tag}</span>
+                  <h3>{detector.name}</h3>
+                  <p>{detector.description}</p>
+                  <button className="card-action" onClick={scrollToDetectors}>
+                    Open detector <ArrowRight size={17} />
+                  </button>
+                </article>
+              )
+            })}
+          </div>
+        </section>
+
+        <section className="how-section" id="how-it-works">
+          <div className="how-copy">
+            <span className="eyebrow">SIMPLE BY DESIGN</span>
+            <h2>From content to insight in <span className="gradient-text">three steps.</span></h2>
+            <p>One workspace brings your detection workflow together without unnecessary complexity.</p>
+          </div>
+          <div className="steps-list">
+            <div className="step">
+              <span className="step-number">01</span>
+              <div><h3>Choose your content type</h3><p>Select text, code, or image detection.</p></div>
+            </div>
+            <div className="step">
+              <span className="step-number">02</span>
+              <div><h3>Submit your content</h3><p>Paste text or code, or upload an image.</p></div>
+            </div>
+            <div className="step">
+              <span className="step-number">03</span>
+              <div><h3>Review your results</h3><p>See the model prediction and its confidence scores.</p></div>
+            </div>
+          </div>
+        </section>
+
+        <section className="bottom-cta">
+          <div className="bottom-cta-icon"><Sparkles size={24} /></div>
+          <h2>Ready to take a closer look?</h2>
+          <p>Choose your detector and start exploring your content.</p>
+          <button className="primary-button" onClick={scrollToDetectors}>
+            Get started <ArrowRight size={18} />
+          </button>
+        </section>
+      </main>
+
+      <footer className="footer">
+        <a className="brand footer-brand" href="#home">
+          <span className="brand-mark"><ShieldCheck size={20} /></span>
+          <span>Veri<span className="brand-highlight">Scan</span></span>
+        </a>
+        <p>One workspace for AI content detection.</p>
+        <a className="footer-link" href="https://github.com/" target="_blank" rel="noreferrer">
+          <Github size={16} /> Built with ML <ArrowRight size={14} />
+        </a>
+        <span className="copyright">© {new Date().getFullYear()} VeriScan</span>
+      </footer>
+    </div>
+  )
+}
+
+export default App
