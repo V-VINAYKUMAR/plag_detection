@@ -1,45 +1,17 @@
-.DS_Store
-.env
-.env.*
-!.env.example
-
+# Python
 __pycache__/
 *.py[cod]
 .venv/
 venv/
-
-node_modules/
-dist/
-
-*.safetensors
-*.bin
-*.pt
-*.pth
-*.onnx
-*.ckpt
-
-.ipynb_checkpoints/
-wandb/
-
-# Python environments and cache
-.venv/
-venv/
-__pycache__/
-*.py[cod]
-
-# Node dependencies and builds
-node_modules/
-dist/
-
-# Secrets
 .env
 .env.*
-!.env.example
 
-# Backups
-frontend-backup-*/
+# Node / React
+node_modules/
+dist/
+build/
 
-# Model weights and datasets
+# Model weights
 *.safetensors
 *.bin
 *.pt
@@ -48,4 +20,19 @@ frontend-backup-*/
 *.onnx
 *.h5
 *.keras
-datasets/
+
+# Datasets and generated files
+*.csv
+*.parquet
+*.zip
+
+# macOS / IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Logs and caches
+*.log
+.cache/
+frontend-backup-*/
+*.safetensors
